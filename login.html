@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="styke1.css"> 
+
+   
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+    <h2>Login </h2>
+    <form action="login.php" id="register" method="post">
+    <label for="">Username</label>
+    <br>
+    <input type="email" class="name"id="name"name="username" placeholder="Username">
+    <br><br>
+    <label for="">Password</label>
+    <br>
+    <input type="password"class="name"id="name"name=" password" placeholder="Password">
+    <br><br>
+    <a href="">Forgot Password</a>
+    <br>
+    <br>
+    <p>If Don't have an account?<a href="signup.html">SignUp Now</a></p>
+        <br>
+    
+        <input type ="submit" id = "button" onclick = "myfunction()" />
+    
+    </form>
+
+    </div>
+    </div>
+
+    <script>
+        function myfunction(){
+            document.write(" Loginned successfully....");
+            
+        }
+    </script>
+</body>
+</html>
